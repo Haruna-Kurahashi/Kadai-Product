@@ -1,6 +1,8 @@
 package kuppieproduct.io.kadaiproduct;
 
-public class Item {
+import java.io.Serializable;
+
+public class Item implements Serializable {
     String title;
     String content;
     int likeCount;
